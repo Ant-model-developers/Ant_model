@@ -1,0 +1,844 @@
+﻿
+1.1	Concept Clarification
+
+Why do we need business process management? This question is not only asked by stu-dents of business administration who go to a corresponding lecture with great expecta-tions, but also by experienced practitioners. A look at history can help here a little bit. Since the beginning of the 19th century, the world of work has been characterized by a strong division of labor as a result of the previous industrial revolution. The Taylorism played an important role here, named after the US American Frederick W. Taylor (see the original work Taylor 1903).
+The business process management (GPM) or simply process management was devel-oped at the beginning of the 1990s in order to, among other things, eliminate the nega-tive consequences of division of labor and poor coordination.
+Business process management deals with the documentation, analysis and restructur-ing of workflows (processes). For a long time, the term “process organization” was com-mon in German-language literature. The documentation of the processes is also referred
+
+
+
+
+Process Management
+
+
+Terms
+
+GPM
+Business Process Management BPM
+Business Process Management (new German term)
+Process organization
+(historical German term)
+
+WFM
+
+
+Tasks
+
+Documentation, analysis and restructuring,
+of work processes
+(Processes)	Professional Process modeling
+
+
+Computerized
+
+
+
+Workflow management ("int" term)
+z. T. also BPM /
+Business Process Management
+
+
+Execution of workflows
+(Workflows)
+
+
+
+Technical
+Workﬂow modeling
+
+
+Fig. 1.1   Concept clarification process management
+
+
+to as “technical process modeling”. In the international environment, the term “business process management (BPM)” is common.
+To be distinguished from this is the term “workflow management” (WFM), which covers the computer-supported execution of workflows (so-called “workflows”). Here one also speaks of “technical workflow modeling”. In international usage, the terms “business process management and workflow management” are often not further dif-ferentiated, one usually speaks in both cases of “business process management (BPM)”. Figure 1.1 shows the terminology at a glance.
+
+
+1.2	Historical Development
+
+In the development of process management, four phases of development can be identi-fied (see Table 1.1).
+
+I. Phase: Breakdown of work into functions (Taylorism):
+The early phase of process management begins with Taylorism, named after Frederic Winslow Taylor (1856–1915), who consistently separated planning and executive activi-ties. This classical bureaucratic organizational structure prevailed in almost all compa-nies of the 19th century and played a central role for departments (cf. Sua-Ngam-Iam and Kühl 2021, p. 46). According to the then prevailing business paradigm, the construc-tion and operational organization were considered separately in this phase. This was first
+
+
+Table 1.1   Development phases of process management
+
+
+Phase 1	From 1900
+Phase 2	Approx. 1970–1980
+Phase 3      Approx. 1990 bis 2015
+Phase 4	From  2015
+
+Breakdown of Work into functions (Taylorism) Sequencing of functions (action-oriented data processing)
+Process orientation: Formation of processes as an overarching structural element (Exploitative Process Management)
+Digitalization: processes become digital, development of innovations and new business models (Explorative process management)
+
+
+
+made clear in the works of Nordsiek and Hennig around 1930 (Gaitanides 2007, p. 7). Nordsiek’s thesis published in 1931 is one of the first works in Germany to explicitly deal with business process modeling (Mendling 2021, p. 1).
+The  structural  organization  regulated  the  disciplinary  structure  (Who  reports  to whom ?) And defined the task assignment (who has which part task to fulfill?). This clarified the responsibility for partial sections of the service creation (functions). The operational organization served the breakdown of the work into small individual steps and ultimately the assignment to elements of the structural organization, i.e., the areas, departments, groups and persons. The advantage of this organizational concept, which was sensible for the time being, lay in the support of industrial mass production through the efficient use of resources (machines, employees, etc.).
+However, the disadvantage was the fragmentation of the process into individual frag-ments. For the individual there was no overview of the entire process, but only of his own area of responsibility. This led to a restricted view and ultimately little interest in what happened before or after his own activity. In the extreme case, the results of the departments were simply “thrown over the fence” to the next department without check-ing whether the results were needed (cf. Sua-Ngam-Iam and Kühl 2021, p. 47). This laid the foundation for a long phase of promoting departmental thinking and egoism, which still hampers cooperation in companies today.
+
+II. Phase: Sequencing of functions (action-oriented data processing)
+Only with the further development of “Electronic Data Processing” (EDP) came move-ment back into the traditional, organizational separation of workflows and the structural organization.
+In the 1980s, the concept of action-oriented data processing (AODV) as a predecessor of process management was developed to better use the possibilities of IT for controlling workflows (cf. Berthold 1983; Hofmann 1988). The basic idea was to control processes at the level of elementary work steps (cf. Berthold 1983, p. 20).
+This was done using databases jointly used by the individual components of IT. So-called “action databases” contained information from application programs (e.g. mini-mum stock level for article number 4711 is 10 pieces below) and passed this on to the respective processor in the form of action messages (e.g. message to dispatcher: “Order
+
+
+article number 4711”). The transmission of the messages to the employees took place via rudimentary electronic mail systems. The action database fulfilled the function of a mailbox for the employee, who could view and process the work stock and its priorities contained therein. Trigger databases also received structured information from programs (events) and in turn forwarded this to programs, thus triggering the execution of program runs. A trigger describes an action to be carried out and the event that triggers the action (cf. Scheer 1994, p. 72).
+The goals of AODV were to shorten the processing times of processing objects, reduce the amount of paper and improve the use of resources. AODV was successfully implemented in large companies for procurement, customer order, master data and bill of material management in the years (cf. Berthold 1983, p. 25). Both the acceptance of the concept by the employees and the degree of target achievement were positive. Neverthe-less, the concept could not prevail because the performance of information technology was not sufficient for larger data volumes at that time. The underlying idea was only suc-cessfully implemented later as “workflow management” (cf. Mertens 2006, p. 28).
+
+III. Phase: Process orientation (Exploitative Process Management):
+In the early 1990s, a “process management wave” was triggered in corporate practice by numerous publications by renowned researchers and practitioners. Well-known names were in the USA the authors Hammer and Champy (see Hammer 1990; as well as Ham-mer and Champy 1994), in Germany Scheer (see Scheer 1990) as well as in the Switzer-land Österle (see Österle 1995). They triggered heated debates because the basic idea of the concepts was contrary to the then common practices in companies. They demanded in particular the reassembly of unrelated functions into an overarching overall process as well as the separation of process responsibility and organizational structure. In addi-tion, the intensive use of the now significantly more powerful information technology as an “integration instrument” came into play. Many CEOs and managing directors use the new technologies to break down entrenched structures in companies and “force” an organizational change in their companies of using process-oriented application soft-ware. This was particularly beneficial for the business standard software system “SAP R/2” and later the successor product “SAP R/3” of the company SAP AG, Walldorf. The previously hardly methodologically supported modeling (structured description) of processes was supported by holistic scientifically founded concepts, such as the “Archi-tecture of Integrated Information Systems (ARIS” by Scheer (see Scheer 1991) as well as first generations of powerful modeling tools for personal computers (e.g. “ARIS Tool-set” by IDS Scheer, Saarbrücken or “Bonapart” by UBIS GmbH, Berlin), which were previously developed as prototypes at German chairs of business informatics (ARIS Toolset at Prof. Scheer, Saarbrücken, Bonapart at Prof. Krallmann, Berlin). Since the focus of this phase is mainly on the improvement of existing business models and their processes, in recent research literature also of the “exploitative business process manage-ment” is spoken (see for example Gross et al. 2019; Grisold et al. 2019).
+
+
+IV. Phase: Digitalization (Explorative Process Management)
+Around 2015, one can speak of the beginning of the “digitalization wave”. “Informa-tion technology” is upgraded and seen as an enabler of “digitalization” (cf. Winkelhake 2021). New concepts of information management such as Cloud Computing, Big Data and Industry 4.0 influence process management in different ways. This has led to the formation of the term “Exploratory Process Management”, which is characterized by the future-oriented development of new business models and the search and implementation of innovations (cf. Griesold et al. 2021).
+In addition to organizational coordination (who does what?), technical coordination is now added (which processes are supported by which “apps”?). Cloud computing appli-cations, for example, include modeling and execution of processes that have so far been carried out mainly on internally operated software. Typical applications for Cloud Com-puting are, for example, the real-time analysis of machine data with interventions in the maintenance process in case of irregularities or the “Active Customer Steering” through real-time analysis of sales and prediction of the current customer behavior (“We know what the customer buys tomorrow”). New business models increasingly lead to digitally implemented business processes that have not been possible so far (cf. Gadatsch 2014). In science, the connection between digitalization and process management was only intensively researched in 2019 and 2020 (cf. the detailed study by Allweyer 2020).
+
+
+1.3	Classification of Selected Topics and Methods
+
+Process management has become a multi-faceted term that is interpreted differently. Due to numerous publications and experiences in practice, different views and variants have emerged. Before going into detail on individual aspects, an attempt will be made to roughly classify important topics and associated methods of process management. The explanation of the terms will follow in the next chapters.
+In Fig. 1.2 three planes are shown, the strategic, the professional and the technical process management.
+
+Strategic process management
+The strategic process management can also be referred to as business model manage-ment. It includes the analysis and design of business models and their structures. Busi-ness models are the basis of a company or an organization, they describe the purpose of the company, the pricing and marketing policy, the marketing model and the way of creating value (cf. Reinhart 2017, p. 7–8). Business models can be described using the Business Canvas Method (cf. Hansen et al. 2018).
+In addition, decisions about the basic structure of the processes are necessary, which are laid down in the process strategy. The process strategy is increasingly formulated as a digital strategy, since manual processes are hardly relevant anymore. Typical meth-ods of strategic process management are the process map (or value chain diagrams), IT
+
+
+
+
+Targets
+
+
+Analysis and design of business models and structures
+
+
+
+Documentation, analysis and design of processes
+
+
+
+IT-supported execution and control of (digitized) processes
+
+Levels
+
+Strategic process management
+(Business Model Management)
+
+
+Professional process management
+(Business Process Management)
+
+
+Technical process management
+(Workflow Management)
+
+
+Topics and methods
+
+Business models (e.g. business canvas) Process strategy/ digital strategy Process map (e.g. WKD)
+IT architecture model (e.g. EAM model) Process controlling (e.g. process scorecard)
+
+Business processes
+Business process models (e.g. eEPK, BPMN, Swimlane, UML), business data models (e.g. ERM, STAR schema)
+Process control (e.g. process key figures)
+
+
+Technical processes (workflows) Modeling, simulation and execution of workflows with process control systems (WFMS, RPA, ERP, etc.)
+Process data analysis (e.g. process mining)
+
+
+
+
+Fig. 1.2   Overview of selected topics and methods
+
+
+architecture model (e.g. Enterprise Architecture Management/EAM) but also the Process Scorecard for process controlling.
+
+Technical process management
+The technical process management, also known as business process management or “operational process management”, is concerned purely from a technical point of view with the documentation, analysis and design of processes. For this purpose, techni-cal process models are created using special modeling languages (e.g. eEPK, BPMN, Swimlane or UML). Depending on the level of detail, data models also must be created, e.g.: using the Entity-Relationship-Model (ERM) method for ERP systems or the STAR schema for Data Warehouse systems. For operational process control, key figures are usually used.
+
+Technical process management
+The first two levels in Fig. 1.2 relate to the business view of processes. The task of tech-nical process management is to realize the IT support for the execution and control of processes. It is also referred to as “workflow management” because workflows represent executable digital processes. On this level, detailed technical modeling, simulation and execution of workflows is carried out using process control systems (workflow manage-ment systems/WFMS, enterprise resource planning systems/ERP and robotic process automation systems/RPA). The analysis of the processes carried out using process min-ing tools, which identify the actual process course from the log data of the systems.
+
+
+1.4	Processes
+
+1.4.1	Characteristics
+
+Basic characteristics
+Nowadays, many definitions and synonyms for the “business process” or simply “pro-cess” have become known, such as corporate process, performance creation process, core process, key process, main process, process chain, organizational process, etc. (see Schmelzer and Sesselmann 2013, p. 55). For the beginning, the following important characteristics of a process can be noted: A process supports a company-related goal that is aligned with the company’s or organization’s strategy, consists of several individual steps, takes place regularly, is often carried out by several people, departments, areas or companies in a division of labor, usually requires support by one or even several soft-ware systems and possibly other resources (e.g. telephone, copier, transport vehicle, machines, facilities), processes information (input) and leads to a desired result of the company (output). The overall context of processes and their division of labor results from Fig. 1.2.
+
+Typical processes
+The variety of processes in practice is unmanageable. Typical processes are:
+
+•  Processing customer inquiries and creating offers in an industrial company, •  Creating a production plan in an engine factory,
+•  Investigation and treatment of patients in a doctor’s practice, •  Conducting courses and examinations at universities,
+•  Production of baked goods in a bakery,
+•  Creating the annual profit and loss statement and balance sheet (annual financial state-ments),
+•  Purchasing, storing and selling goods in a supermarket.
+
+A process differs from a once off project in that it is repeated several times. So, the intro-duction of a logistics system for a company or the celebration of a company the its 50th anniversary is a project and not a process.
+
+ Youtube video (2 min) for representing business processes: “Stephie’s Bakery”  On the Internet video Youtube under the address http://www.you-tube.com/watch?v=ehcYYLYHOuI there is an interesting and well-made video that compactly and impressively explains the essential elements of business processes using the example of “Stephie’s Bakery”.
+
+
+1.4.2	Process Definitions
+
+Hilmer has presented an extensive scientific study on the systematization of the process concept and identified 75 characteristics of processes (cf. Hilmer 2016, p. 267). He pro-cessed 101 sources (cf. Hilmer 2016, pp. 268 ff.), which indicates an active scientific dis-cussion. The definitions selected here give an insight into the multi-year discussion about the business process concept without claiming to be complete.
+
+Enterprise process according to Hammer and Champy
+Hammer and Champy define the enterprise process as a set of activities for which one or more different inputs are required and which generate a result of value for the customer (Hammer and Champy 1994). As an example, they mention the development of a new product. An enterprise process is controlled by a process responsible person, who should come from the circle of the upper management level.
+
+Business process according to Scheer and Jost
+Scheer and Jost understand a business process as the model-based description of the functions to be carried out in a company in terms of content and time (cf. Scheer and Jost 1996). Functions are understood to mean individual tasks and activities that are linked to each other via triggering or generated events. Scheer equates the concept of the busi-ness process with the concepts of the process chain and the process chain (cf. Scheer 1990) and thus emphasizes the cross-functional character of the business process, which extends over several functional steps.
+
+Business process according to Österle
+According to Österle the business process is a sequence of tasks which can be distrib-uted over several organizational units and whose execution is supported by information technology applications (cf. Österle 1995). A process is at the same time producer and consumer of services and pursues goals set by process management. As a special form of process organization the business process concretizes the business strategy and links it to the information system. Therefore the business process can be seen as the link between the corporate strategy and system development or the supporting information systems.
+
+Berkau
+The engineering sciences started formalizing processes and their systematic documenta-tion much earlier in order to ensure consistent quality for repetitive activities carried out by different people. Processes can therefore be divided into technical processes and busi-ness processes (cf. Fig. 1.3) (cf. Berkau 1998, p. 27). Technical processes (e.g. milling a cylinder head, assembling an engine) are formally described by bill of materials and work plans (job production) or recipes (process production). Business processes relate to commercial activities, such as processing customer orders or hiring an employee.
+
+
+
+
+
+Who? (departments, people)
+
+What? (process steps)
+
+
+With what? (software)
+
+
+
+Processor A
+
+Check if order is feasible
+
+
+
+Application "Product Configurator"
+
+
+
+Processor B
+
+Calculate offer
+
+
+Application
+
+
+
+Processor C
+
+Enter sales order
+
+
+
+Application "Order Management"
+
+
+
+automatic
+
+Schedule production order
+
+
+
+Application "Job Planning"
+
+
+
+Processor D
+
+Confirm customer order
+
+
+Application
+
+
+
+
+
+(data)
+
+Product database
+Offer.xls
+
+
+Order data
+Confirmation. doc
+
+
+Fig. 1.3   Division of labor of processes—Schematic representation
+
+
+They are documented using flowcharts or business process models and colloquially also referred to as “office processes”.
+
+For  the  following  explanations  the  definition  of  the  business  process  according  to Gehring (1998) is used:
+
+Gehring
+A business process is a purposeful, time-logical sequence of tasks that can be carried out by several organizations or organizational units using information and communication technologies. It serves to create services in accordance with the predetermined, process-oriented goals derived from the corporate strategy. A business process can be formally described at different levels of detail and from different perspectives. The maximum level of detail of the description is then achieved when the assigned tasks can be carried out by one employee without changing the workplace (cf. Gehring 1998).
+
+
+1.4.3	Hierarchization of Processes
+
+Processes can be considered at different levels of abstraction. Especially in very large companies it is important to identify these levels and use them for further work. The hierarchization of business processes is carried out in stages according to the “top-down principle”. Figure 1.4 shows the hierarchization principle, starting from the business process via business process steps to elementary business process steps that no longer require a change of operator for task fulfillment (cf. Fig. 1.4).
+
+
+
+
+Processes
+
+
+
+
+(Technical) processes
+
+(Business) management processes
+
+
+
+
+
+
+Examples
+
+
+
+
+Documentation
+
+Milling of a cylinder head Assembly of an engine
+
+
+
+Bill of materials and work plan
+
+Processing of inquiries Hiring of employees
+
+
+
+Flowcharts Business process models
+
+
+
+Fig. 1.4   Process variants according to Berkau (1998)
+
+
+1.4.4	Categories of Processes
+
+An important categorization of business processes is the subdivision according to the proximity to the core business of a company (cf. e.g. Seidlmeier 2002, p. 2 ff.). Accord-ingly, processes can be differentiated into “control processes” (alternatively “manage-ment processes”), “core processes” (also “primary processes”) and “support processes” (alternatively “cross-sectional processes”) (cf. Fig. 1.5).
+
+Control process
+Control processes actively intervene in the interaction of all business processes (e.g. strategy development, corporate planning). They are the entrepreneurial bracket over value-added and supporting processes and ensure a goal-oriented structure.
+
+Core process
+Core processes are business processes with a high value-added share. They characterize the essence of the company, are usually competition-critical and form value-added pro-cesses starting from the customer’s wish to the customer’s perceived delivery or service. Typical examples are order processing, product development, production, distribution and service.
+
+Support process
+Support processes have no or only a very small value-added share. They offer cross-sec-tional services for other processes, without which the value creation of the company is
+
+
+
+Business process
+
+
+
+Business process step
+
+
+Elementary business process step
+
+Business process step
+
+
+Elementary business process step
+
+Business process step
+
+
+Elementary business process step
+
+
+Principle
+the hierarchizaon of processes
+
+
+
+
+
+Order processing
+
+
+
+
+Order clarification
+
+
+
+Master data update
+
+
+Order check
+
+
+
+Material availability check
+
+
+Order entry
+
+
+
+Resource testing
+
+
+Example
+
+"Order processing"
+
+
+
+Fig. 1.5   Process Map
+
+not possible. They are usually not competitively critical and do not appear directly in the customer’s field of perception. Examples are accounting, cost accounting, reporting or human resources.
+The Fig. 1.6 shows an example of the categorization of processes for a fictitious car dealership. In the upper part of the representation, four control processes are shown: strategy development, controlling, product planning and personnel control. Below, the two core processes (“car purchase” and “service”) are depicted in detail, with the most
+
+
+
+
+Core process
+
+Customer	Core process	Customer
+
+Core process
+
+
+
+Fig. 1.6   Process categories
+
+
+important business process steps being shown in a sequential form. At the bottom are the support processes marketing, accounting, customer service, information technology and administration. All support processes are not directly assigned to a process, but either generally effective for the whole company (e.g. information technology, administration) or for several processes (e.g. customer service for “car purchase customers” and for “ser-vice customers”).
+
+
+1.5	Workflows
+
+1.5.1	Central Terms of Information Processing
+
+The increasing digitalization leads to the fact that more and more processes are carried out with computer support. The term “workflow” plays a central role here. Workflows are processes that are controlled on the basis of models and algorithms. They therefore require the possibility of at least partial automation of the process and its execution using software systems.
+Before the term Workflows is dealt with in more detail, some selected term elements should be clarified in the context of hardware, software and business processes (cf. Fig. 1.7). The lower level of IT support consists of hardware (e.g. computers, printers) and other technical equipment (e.g. reading devices, scanners), which is referred to as a Hard-waresystem. Together with the software system consisting of Anwendungssoftware (e.g.: mail sorting, accounting) and Basissoftware (e.g. operating system), the Hardwaresystem
+
+
+Control processes
+
+Strategy development
+
+
+Controlling
+
+
+Product planning
+
+Human Resources Management
+
+
+Core process "Car purchase"
+
+
+Car buyers
+
+
+Request	Test drive	Quotation
+
+
+Delivery/ Instruction
+
+Invoice/ Credit redemption
+
+
+Car buyers
+
+
+Core process "Service"
+
+Service customer
+
+Trouble-Request	Quotation	shooting/
+Analysis
+
+
+Trouble-shooting
+
+
+Invoice / Payment
+
+
+Service customer
+
+
+Support processes
+
+
+Marketing	Billing	Canteen	IT	Management
+
+
+Fig. 1.7   Process Map of a car shop
+
+
+forms the “Anwendungssystem”. If the Anwendungssystem is supplemented with organi-zational components (people and business processes), it is an “Informationssystem”.
+
+
+1.5.2	Workflow Definitions
+
+The digitalization of processes is currently being intensively discussed. Workflows are digitally executed and controlled by a software system using rules. The first workflow definitions date back far into the past:
+
+•  Galler and Scheer see in the workflow a technical refinement of the business process (cf. Galler and Scheer 1995). The degree of refinement is the automatability. The workflow must be usable as input and rule set for the control by a process control spe-cialized software system (workflow management system).
+•  Similarly, Österle (1995) describes the workflow as a refined business process. Start-ing from a process design at the macro level and its successive decomposition into sub-processes, the micro level is then reached when the tasks are so detailed that they can be implemented by the process participants as work instructions. Based on the task chain, a manager can control the workflow. The workflow thus represents the detailed form of the micro-process. Instead of a manager, the computer now takes over the process control.
+
+
+1.5.3	Delimitation Business Process and Workflow
+
+Business processes and workflows describe workflows, but with different levels of detail. Business processes describe from a business point of view who does what. The workflow is a refinement of the business process in terms of information technology (cf. Fig. 1.8).
+A clear distinction is not always possible because of the common subject of investi-gation and often leads to the terms being equated, although they pursue different goals. There are some essential differences, which are summarized in Fig. 1.9:
+Business process: The business process describes “what” needs to be done to imple-ment the given business strategy. The workflow describes “how” this should be imple-mented. The  business  process  is  the  business-conceptual  level,  the  workflow  is  the operational level. The required level of detail of a business process is reached when it describes the work steps that can be carried out by an employee in one go at a worksta-tion. The business process is therefore a business term.
+Workflow: The workflow level is reached when the level of detail can be understood by the executing employee as a concrete work instruction and the description for soft-ware-controlled work is given so specifically that it can be executed by an application system. A clear distinguishing feature is the executability by a human task performer
+
+
+
+
+
+Organizaonal system
+
+People (Responsibility, Experience)
+Business processes (rules, instructions, documents)
+
+
+
+
+Soware system
+
+
+
+Hardware system
+
+Application Software
+(Mail, Text, Accounting, Manufacturing, Sales)
+Basic software (operating system, utilities)
+
+Hardware (Responsibility, Experience)
+Other techn. facilities (telephones, vehicles, equipment)
+
+
+
+
+Application system
+
+
+Information system
+
+
+Fig. 1.8   Important IT terms (cf. Herzwurm and Pietsch 2009, modified)
+
+
+
+Business process	Who does what?	Business Administration
+
+
+Refinement
+
+
+
+
+Workflow
+
+How is it (technically) implemented?
+
+
+Information Technology
+
+
+
+Fig. 1.9   Business process and workflow
+
+
+(employee) or a computer program. The workflow is therefore a rather technical term with a strong connection to computer science.
+
+Workflow definition  A workflow is a formally described, fully or partially automated business process. It includes the temporal, professional and resource-related specifica-tions that are required for automatic control of the work process at the operational level. The work steps triggered by this are intended to be carried out by employees or by application programs. To be distinguished from the workflow as a type or template of a partially or automated work process is a workflow instance, which denotes a concrete execution of the workflow (cf. Gehring 1998).
+
+
+In the workflow, the computer controls the process
+The current digitalization trends lead to the fact that the difference between business pro-cesses and workflows is becoming increasingly less visible, since hardly any processes are conceivable without software support and the active process control by computer is increasing rapidly. In the workflow, the computer controls the sequence of activities, in the business process the human controls.
+
+
+1.5.4	Workflow Types
+
+Workflows can be distinguished according to the degree of structuring of the underlying processes and the degree of computer support for the processes.
+
+Workflows according to the structurability of the process
+The general workflow, which is also referred to as a production or transaction workflow, concerns well-structured workflows in organizations, such as travel expense accounting. General workflows are characterized by repetitive character and work steps that can be defined in detail in advance. They can be automated to a high degree or supported by information processing systems.
+The case-related workflow, which is also referred to as a flexible workflow, charac-terizes workflows that are not fully standardized. An example of this is the processing of loan applications at banks. The transition from case-related to general workflow is fluid. In comparison to the general workflow, case-related workflows have higher degrees of freedom for the processors. Individual processes can be skipped or modified (e.g. waiver of individual test procedures as part of a credit processing or an assessment center when hiring an employee).
+Ad hoc Workflows are unstructured process steps, the sequence of which cannot be determined in advance. In ad hoc workflows, the processor of a workflow instance deter-mines the subsequent processor in his own responsibility (Scheer 1998, p. 90). Ad hoc workflows cannot be modeled (e.g. working group for the development of an advertising campaign). Another example is the processing of investment proposals in large compa-nies. It is often only roughly structured, for example regarding the signature rules, and offers high degrees of freedom with regard to the participants and the course. Depend-ing on the type of investment, different contacts and preliminary work may be necessary before the application is approved.
+
+Workflow according to the degree of computer support
+Workflows can be divided according to the degree of computer support. The free work-flow is carried out completely manually by a personnel processor (e.g. checking the competence of an incoming request). In this case, only a process control of the process is possible, i.e. a check whether all sub-steps have been carried out in the correct order. The partially automated workflow is, supported by an information processing program,
+
+
+carried out by a personnel processor (e.g. entering the master data of a new customer). The automated workflow is executed by a program without intervention by a personnel processor (e.g. printing an invoice after delivery). In the case of partially automated or automated workflows, in addition to process control, an execution control is also possi-ble, i.e. it is ensured that, for example, a certain transaction has been executed.
+
+
+1.6	End-to-End Processes
+
+The  process  management  developed  in  the  1990s  focused  on  improving  customer wishes. Processes serve directly (core process) or indirectly (support process, manage-ment process) to meet the needs, expectations or requirements of customers. The control of processes is carried out by a business process responsible, who specifies the objectives and key figures for controlling the process within the framework of the company’s strat-egy.
+An end-to-end process is a customer-focused process. The term “customer” can be extended here. “Customer” stands either for the external company customer, who, for example, orders goods, or for an “internal process customer”, who uses the services of another process. So, the process “Leading employees” can request the service within the framework of the new filling of a position that a selected employee should receive an employment contract from the process “New employees”.
+The End-to-End Process begins with the trigger by the (process) customer and ends with the fulfillment of the customer’s needs. Core processes of a company should be organized as end-to-end processes (cf. the schema in Fig. 1.10). In the case of the exter-nal customer, one speaks of “customer-to-customer processes”.
+
+ Note: In the end-to-end process, a customer need is at the beginning and the performance the customer receives is at the end.
+
+An example of the end-to-end process “offer processing” described in tabular form in Table 1.2 can be seen in Fig. 1.11.
+
+
+1.7	Function Versus Process
+
+The organizational structure of a company serves the vertical mapping of the hierarchy. Each position (employee, manager) performs individual functions as part of the division of labor of the company. The function “check stock” is carried out in the disposition, the function “enter customer order” is carried out in sales. The entire process (“processing of customer orders”) is not visible and there is no overall responsibility for all departments involved.
+
+
+
+
+
+
+Destination
+
+
+
+Design level
+
+
+Level of detail
+
+Business process
+
+Analysis and design of work processes in terms of given (strategic) objectives
+
+Conceptual level with link to business strategy
+
+Work steps that can be performed in one go by one employee at one workstation
+
+
+Workflow
+Specification of the technical execution of work processes
+
+
+Operational level with connection to supporting technology
+
+Specification of work steps with regard to work procedures as well as human and technological resources
+
+
+
+Fig. 1.10   Business process versus workflow
+
+
+Table 1.2   End-to-End Process Offer Processing
+
+
+Customer’s central requirements
+
+Essential activities of service creation
+
+
+
+
+Possible process goals
+
+Possible control indicators
+
+Offer created promptly with realistic and matching delivery terms to the inquiry as well as favorable prices
+Receipt of the inquiry, clarification of details, clarifica-tion of offer contents (products, dates, prices, additional services, resource check, if necessary, involvement of suppliers), creation and submission of offer, monitoring of the offer
+High-quality offer with realistic delivery dates and bind-ing prices
+Processing time
+Order rate (number of orders/offers)
+
+
+Example of a description of an end-to-end process
+
+
+The process is created by sensibly coupling individual functions, e.g. “enter order”, “check stock” under one unified leadership by the process responsible (e.g. “processing of customer orders” in Fig. 1.12) to a sensible whole (Fig. 1.13).
+
+
+1.8	Quick Test Process Management—Self-evaluation
+
+The following described “Quick Test” is intended for readers from practice. It can be used for a self-evaluation of a company or an authority. This gives the readers a simple help to roughly assess which areas of the organization still have development potential and where active intervention may be required.
+
+
+Business Process Owner
+
+
+
+Customer (requirements)
+
+Power generation (value-adding activities)
+
+Customer (services)
+
+
+
+Process goals and process key ﬁgures
+
+
+Fig. 1.11   Schema for an end-to-end process (Schmelzer and Sesselmann 2013, p. 53)
+
+
+Head of order processing
+
+
+
+
+Customer (request)
+
+Clarify inquiry content	Prepare oﬀer content Perform resource check      Create and submit oﬀer
+
+
+Customer (oﬀer)
+
+
+
+Processing me (< 2 days) Order rate (>70%)
+
+Fig. 1.12   End-to-end process (example according to Schmelzer and Sesselmann 2013, p. 53)
+
+
+Management
+
+
+Area	Area
+
+
+Department	Department	Group	Group
+
+
+Employees	Employees	Employees	Team	Employees
+
+
+
+Employees
+
+
+Employees
+
+Employees	Employees
+
+Employees
+
+
+
+Process	Processing of customer orders
+
+
+Functions
+
+Enter               Check order              stock
+
+
+Assemble	Send parts	goods
+
+
+Fig. 1.13   Process versus function
+
+A total of five questions are to be answered on a scale of 1 to 5, intermediate values are allowed. The result can be displayed as a network diagram and compared with other organizations.
+
+Questionnaire Process Management Quick Test
+
+Question 1: Experiences with process management
+
+1=Process management is largely unknown and no experience
+2=Process management is known (for example, from training or study), but not yet introduced in the company
+3=First activities have been started to introduce process management, for example, pre-project, pilot project, but no regular activities
+4=Processes are partially formally documented, for example, process map, some detail processes (Swimlane, eEPK, BPMN, UML, etc.), responsibility for processes is not yet or only partially defined and communicated
+5=Responsibility for processes (for example, definition of process responsible) is anchored
+
+Question 1: Experiences with process management
+
+1 = Process management is largely unknown and no experience
+2 = Process management is known (for example, from training or study), but not yet introduced in the company
+3 = First activities have been started to introduce process management, for example, pre-project, pilot project, but no regular activities
+4 = Processes are partially formally documented, for example, process map, some detail processes (Swimlane, eEPK, BPMN, UML, etc.), responsibility for processes is not yet or only partially defined and communicated
+5 = Responsibility for processes (for example, definition of process responsible) is anchored
+
+Question 2: Strategic process management
+
+1 = No process strategy available or processes are not part of the corporate strategy 2 = Process map is in work, process strategy is planned
+3 = Process map is known and communicated, process strategy is formulated
+4 = Process strategy is backed by process scorecard with corresponding goals and measures
+5 = Measures for implementing the process strategy have been initiated or already started and are controlled by process controlling
+
+
+
+Question 3: Professional process management
+
+1=Processes are not or only in exceptional cases or fragmentarily documented 2=Individual processes are documented, first approaches to process optimization have been developed
+3=Important processes (e.g. core processes) have been analyzed and optimization concepts have been developed
+4=Processes are stored in an IT tool and described with other elements (e.g. profile). The contents are communicated, selected optimization processes run regularly 5=The process management feedback loop is established (strategy, professional modeling, redesign / restructuring of processes, implementation, use and monitor-ing)
+
+Question 4 Technical process management
+
+1=not known, not available
+2=Workflow tool or ERP/RPA system with workflow functions in selection 3=Workflow tool is selected and first processes for digitization are selected 4=Selected processes have been implemented with the workflow tool
+5=All important processes (e.g. core processes) are controlled by workflow tool
+
+Question 5 Processor Organization
+
+1 = functionally structured line organization, i.e. for example departments such as purchasing, warehouse, production, sales, shipping for all products or processes
+2 = staff unit within a functional line organization 3 = staff unit with project organization
+4 = matrix organization with functional responsibility and additional process respon-sibility (process manager)
+5 = pure process-oriented structure of organizational units, possibly also with shared service centers for cross-task
+
+Question 6 Process Modeling
+
+1 = No documentation of processes available
+2 = Processes are represented with simple flowcharts, for example with MS Visio or similar graphic programs
+3 = Processes are documented with modeling tools, for example with BIC Design, ARIS, Signavio
+4 = Processes are analyzed with modeling tools
+5 = Processes are dynamically evaluated with simulation functions of the modeling tools in terms of times, costs, quantities, etc.
+
+
+
+Question 7 Process Automation
+
+1=Processes are controlled purely manually (e.g. job tickets, by calling out) 2=Processes are digitally supported, but control is via static aids (e.g. job tickets) or people (e.g. transfer of task to next person)
+3=Processes are partially rule-based controlled by systems (e.g. order requests are forwarded to different recipients depending on value)
+4=Processes are partially rule-based executed and controlled by control tools (e.g. workflow management systems, ERP systems, RPA tools)
+5=Processes are mainly executed and monitored by control tools
+
+Question 8 Process Controlling
+
+1=no process-related key figures available 2=key figures defined for individual processes
+3=key figures available for important processes, no key figure system in place (e.g. process scorecard)
+4=a key figure system (e.g. process scorecard) provides key figures for important processes centrally (e.g. data warehouse)
+5=the key figure system is used for operational and strategic process control
+
+In Fig. 1.14 you will find an anonymized example from participating institutions. If you are interested in a self-evaluation according to this procedure, you can request a blank table (Microsoft Excel) at the email address andreas.gadatsch@h-brs.de.
+
+
+1.9	Review Questions and Exercises
+
+1.9.1	Questions
+
+1. Distinguish between business process management and workflow management. 2. Describe the essential characteristics of processes.
+3. Distinguish between a business process and a workflow. 4. Distinguish between a project and a business process.
+5. Explain different categories of business processes and give an example from your chosen industry for each category.
+6. Explain the difference between an operational function and a business process using an example of your choice.
+
+
+
+1.9.2	Exercise “End-to-End Process”
+
+Identify an “End-to-End Process” of your choice and create a clear process diagram that contains the following information: process name, central customer requirements, essen-tial activities of service creation, possible process goals and possible performance indica-tors for control.
+
+
+
+
