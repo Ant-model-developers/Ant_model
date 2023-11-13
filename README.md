@@ -9,5 +9,5 @@ This repository consists of the three folders "Documentation", "text-generation-
 - **Humanistic_evaluation**: This folder provides the gradio-app that was used to conduct the humanistic-evaluation of the ant-model. A detailed description on how the evaluation process was conducted is described in the "Documentation"-folder.
 
 ## Testing the Ant-model
-The descriptions provided in the "Documentation"-folder can be used to reproduce the Ant-model over the text-generation-webui and to evaluate it over the gradio-app in the humanistic_evaluation-folder. However, you can also directly use the final ant-model. This model is provided over huggingface https://huggingface.co/Ant-model-developers/Ant_model. 
+The descriptions provided in the "Documentation"-folder can be used to reproduce the Ant-model over the text-generation-webui and to evaluate it over the gradio-app in the humanistic_evaluation-folder. However, you can also directly use the final ant-model. This model is provided over huggingface: https://huggingface.co/Ant-model-developers/Ant_model. Furthermore, this huggingface-llm is also already deposited in the file "Humanistic_evaluation.py" and will therefore be used as the default.
 
