@@ -9,5 +9,5 @@ This repository consists of the three folders "Documentation", "text-generation-
 - **Chatbot-interface**: This folder provides the gradio-app that was used to instantiate the ProcessLLM and to conduct the qualitative evaluation of it. A detailed description on how the evaluation process was conducted is described in the "Documentation"-folder.
 
 ## Testing the ProcessLLM
-The descriptions provided in the "Documentation"-folder can be used to reproduce the ProcessLLM over the text-generation-webui and to evaluate it over the gradio-app in the Chatbot-interface-folder. However, you can also directly use the final ProcessLLM. This model is provided over huggingface: https://huggingface.co/Ant-model-developers/Ant_model. Furthermore, this huggingface-llm is also already deposited in the file "Gradio_app.py" and will therefore be used as the default.
+The descriptions provided in the "Documentation"-folder can be used to reproduce the ProcessLLM over the text-generation-webui and to evaluate it over the gradio-app in the Chatbot-interface-folder. However, you can also directly use the final ProcessLLM. This model is provided over huggingface: https://huggingface.co/ProcessLLM-developers/ProcessLLM. Furthermore, this huggingface-llm is also already deposited in the file "Gradio_app.py" and will therefore be used as the default.
 
